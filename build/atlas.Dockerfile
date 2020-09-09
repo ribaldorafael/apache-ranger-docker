@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+MAINTAINER Ribaldo
+
 RUN apt update \
   && apt install -y wget
 
