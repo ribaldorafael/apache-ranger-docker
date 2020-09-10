@@ -36,3 +36,5 @@ RUN apt install -y git \
   && git clone https://gitbox.apache.org/repos/asf/ranger.git \
   && cd ranger \
   && mvn -DskipTests=false clean package
+
+ENTRYPOINT ["/bin/bash"]
